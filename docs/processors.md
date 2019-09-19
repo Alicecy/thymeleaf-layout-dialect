@@ -1,3 +1,7 @@
+---
+layout: default
+title: Processors
+---
 
 Processors
 ==========
@@ -14,7 +18,7 @@ this processor takes a [fragment expression](https://github.com/thymeleaf/thymel
 that specifies the layout template to decorate with the current, content
 template.
 
-Check out the [Layouts](Examples.md#layouts) example for how to decorate a
+Check out the [Layouts](examples.md#layouts) example for how to decorate a
 layout template with your content templates.
 
 
@@ -28,7 +32,7 @@ Allows for greater control of the resulting `<title>` element by specifying a
 pattern with some special tokens.  This can be used to extend the layout's title
 with the content's one, instead of simply overriding it.
 
-Check out the [Configuring your Title](Examples.md#configuring-your-title)
+Check out the [Configuring your Title](examples.md#configuring-your-title)
 example for how to control the final title of your page.
 
 
@@ -43,7 +47,7 @@ fragments to the inserted template.  Useful if you have some HTML that you want
 to reuse, but whose contents are too complex to determine or construct with
 context variables alone.
 
-Check out the [Reusable templates](Examples.md#reusable-templates) example for
+Check out the [Reusable templates](examples.md#reusable-templates) example for
 how to pass HTML code to the templates you want to insert.
 
 

@@ -1,3 +1,7 @@
+---
+layout: default
+title: Examples
+---
 
 Examples
 ========
@@ -111,7 +115,7 @@ place of the layout's, all elements from the layout, but replaced by all content
 template fragments where specified).
 
 For more on how you can control the merging of `<head>` elements, see the
-[`<head>` element merging](Configuration.md#head-element-merging) section.
+[`<head>` element merging](configuration.md#head-element-merging) section.
 
 > The decoration process redirects processing from your content template to the
 > layout, picking `layout:fragment` parts out of your content template as the
